@@ -1,0 +1,14 @@
+{
+  "id": "task_01_viewmodel_migration",
+  "title": "Migrate StateFlow to Jetpack Compose UI State",
+  "category": "Mobile Refactoring",
+  "difficulty": "Hard",
+  "max_steps": 15,
+  "max_token_budget": 50000,
+  "prompt": "Refactor the legacy UserProfileViewModel from imperative LiveData/StateFlow updating to a unified immutable UI State pattern. Ensure recomposition is minimized, state flows survive configuration changes, and unit tests pass.",
+  "eval_criteria": {
+    "correctness_weight": 0.5,
+    "efficiency_weight": 0.3,
+    "code_quality_weight": 0.2
+  }
+}
